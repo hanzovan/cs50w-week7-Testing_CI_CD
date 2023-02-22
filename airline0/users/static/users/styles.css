@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold; }
+
+h1 {
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center; }
+
+body {
+  color: blue; }
+
+h1 {
+  color: brown; }
+
+/*# sourceMappingURL=styles.css.map */
