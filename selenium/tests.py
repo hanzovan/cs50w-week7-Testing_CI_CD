@@ -34,6 +34,7 @@ class WebpageTests(unittest.TestCase):
         self.assertEqual(driver.find_element('tag name', 'h1').text, '-1')
 
     def test_multiple_increase(self):
+        """ Check if click increase 3 times will turn h1 into 3 or not"""
         driver.get(file_uri('count.html'))
         increase = driver.find_element('id', 'increase')
         for i in range(3):
