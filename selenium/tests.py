@@ -24,11 +24,10 @@ class WebpageTests(unittest.TestCase):
         increase = driver.find_element("id", "increase")
         increase.click()
 
-        time.sleep(2) # Add a short delay to allow JavaScript to execute
-
         self.assertEqual(driver.find_element('tag name', 'h1').text, '1')
 
     def test_decrease(self):
+        """ Check if decrease button work as expected """
         driver.get(file_uri('count.html'))
         decrease = driver.find_element('id', 'decrease')
         decrease.click()
